@@ -23,10 +23,7 @@ int main(int argv, char **args)
 	window.setLayout(layout);
 
 	window.show();
-	window.raise();
-	window.update();
-
-	window.close();
-	//return app.exec();
+	
+	return app.exec();
 
 }
