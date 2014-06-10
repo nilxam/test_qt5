@@ -3,8 +3,7 @@ Compilation
 
 For openSUSE:
 
-qmake-qt5 -project
+under the folder
 qmake-qt5
-( Add QT += widgets to .pro )
 make
 
