@@ -1,0 +1,11 @@
+Generate shared library
+=======================
+
+qmake-qt5
+make
+
+Compile main test program
+=========================
+
+g++ -rdynamic -o run run.cpp -ldl
+
