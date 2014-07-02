@@ -9,3 +9,13 @@ Compile main test program
 
 g++ -rdynamic -o run run.cpp -ldl
 
+
+Use auto-generate script
+========================
+
+./build_run.sh
+
+Requirement
+===========
+
+zypper in gcc-c++ libqt5-qtbase-devel
